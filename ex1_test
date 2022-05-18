@@ -1,0 +1,65 @@
+| ?- collaborates(departmentTwo, departmentSeven, Module).
+
+Module = moduleThirteen ? ;
+
+Module = moduleFourteen
+
+yes
+
+| ?- enrolled(alex).
+
+true ? 
+
+yes
+
+| ?- shareClasses(alex, brandon).
+
+true ? 
+
+yes
+
+| ?- showModulesSchoolOffers(schoolOne).
+
+moduleOne
+
+true ? ;
+
+moduleTwo
+
+true ? ;
+
+moduleEleven
+
+true ? ;
+
+moduleTwelve
+
+true ? ;
+
+moduleThree
+
+true ? ;
+
+moduleFour
+
+true ? ;
+
+moduleThirteen
+
+true ? ;
+
+moduleFourteen
+
+yes
+
+| ?- belongsTo(moduleFive, facultyOne).
+
+true ? 
+
+yes
+
+| ?- memberOf(alex, facultyOne).
+
+true ? 
+
+yes
